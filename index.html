@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4 Ruedas y un Seguro a Tu Medida</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="hero">
+        <img src="logo-afersa.svg" alt="Logo AferSa" class="logo">
+        <h1>4 Ruedas y un Seguro a Tu Medida</h1>
+        <p>Asegura tus vehículos y tu bienestar con un solo plan y un gran descuento.</p>
+        <a href="#formulario" class="cta-button">Solicita tu descuento ahora</a>
+    </header>
+    
+    <section id="formulario" class="contact-form">
+        <h2>Solicita tu Descuento</h2>
+        <form action="submit-form.php" method="POST">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="phone">Teléfono:</label>
+            <input type="tel" id="phone" name="phone" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="interes">¿Qué tipo de seguro te interesa más?</label>
+            <select id="interes" name="interes">
+                <option value="flota">Flota</option>
+                <option value="personal">Personal</option>
+                <option value="ambos">Ambos</option>
+            </select>
+            
+            <button type="submit">Quiero mi descuento</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>📞 Teléfono: 91 683 37 14 | 📧 Email: seguros@afersa.es | 📍 Getafe</p>
+    </footer>
+</body>
+</html>
